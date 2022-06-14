@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* 边框线 */
+.biank{
+    border: 1px solid #000;
+}
+/* 网页整体盒子 */
+.box{
+    width: 1200px;
+    margin: 40px auto;
+    
+    /* 让盒子内容水平居中 */
+ 
+}
+/* 头部区域 */
+.toub{
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;  
+}
+/* logo图片 */
+.toub img{
+    width: 80px;
+}
+/* 内容区域 */
+.nr{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+/* 网页图片区域 */
+.nr .tp{
+    display: flex;
+    justify-content: space-around;
+    font-size: 70;
+    color: #c12121;
+}
+.tp p{
+   text-align: center;
+}
+/* 图片1 */
+.tp1 img{
+    width: 330px;
+    height: 225px;
+}
+/* 图片2 */
+.tp2 img{
+    width: 300px;
+}
+/* 图片3 */
+.tp3 img{
+    width: 300px;
+}
+/* 视频区域 */
+.ship{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;  
+   margin: 20px 0;
+}
+/* 网页尾巴 */
+.weib{
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;  
+}
